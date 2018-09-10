@@ -1,4 +1,4 @@
-<!--index.html-->
+/*index.html*/
     li {
         list-style: none;
     }
@@ -20,12 +20,12 @@
         color: red;
     }
 
-<!-- title -->
+/* title */
     .yuyu-title {
         text-align: center;
     }
 
-<!-- nav -->
+/* nav */
     .yuyu-nav {
         background-color: #eee;
     }
@@ -38,7 +38,7 @@
         color: #aaa;
     }
 
-<!-- main img -->
+/* main img */
     .mainimg-container {
         width: 100%;
     }
