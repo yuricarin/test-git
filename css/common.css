@@ -1,4 +1,49 @@
 <!--index.html-->
-.text-area {
-    color: red;
-}
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .yuyu-main {
+        width: 100%;
+    }
+
+    .text-area {
+        color: red;
+    }
+
+<!-- title -->
+    .yuyu-title {
+        text-align: center;
+    }
+
+<!-- nav -->
+    .yuyu-nav {
+        background-color: #eee;
+    }
+    .yuyu-nav-ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+    }
+    .yuyu-navi-li a {
+        color: #aaa;
+    }
+
+<!-- main img -->
+    .mainimg-container {
+        width: 100%;
+    }
+    .main-img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
