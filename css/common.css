@@ -53,6 +53,21 @@
         width: 80%;
         margin: 0 auto;
     }
+
+/* subContents */
+    .subcontents-ul {
+        display: flex;
+    }
+    .subcontents-ul li {
+        width: 45%;
+    }
+    .subcontents-ul img {
+        width: 75%;
+    }
+    .subcontents-ul div {
+        display: inline-block;
+    }
+
 /* footer */
     .yuyu-footer {
         background-color: #444;
