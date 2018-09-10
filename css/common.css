@@ -17,8 +17,10 @@
     }
 
     .text-area {
-        margin: 40px 0;
+        margin: 48px 0;
+        padding: 0px 95px;
     }
+
     .text-area p {
         font-size: 12px;
     }
