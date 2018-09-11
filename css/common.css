@@ -1,4 +1,7 @@
 /*index.html*/
+    body {
+        overflow-x: hidden;
+    }
     li {
         list-style: none;
     }
@@ -101,9 +104,45 @@
 /*SP対応*/
 @media screen and (max-width: 768px) {
 
+    .yuyu-title {
+        font-size: 18px;
+    }
+    .yuyu-nav {
+        margin-bottom: 8px;
+    }
+    .yuyu-nav-ul {
+        width: 100%;
+    }
+        .yuyu-nav-li a {
+            font-size: 12px;
+        }
 
-
-
-
+    .text-area {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .yuyu-subcontents {
+        margin-top: 20px;
+        margin-bottom: 32px;
+    }
+    .yuyu-subcontents .text-area {
+        padding: 0;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .yuyu-subcontents h2 {
+        font-size: 14px;
+    }
+    .subcontents-ul {
+        padding: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    /* ↓左右の余白は要再調整 */
+    .subcontents-ul li {
+        width: 48%;
+        margin-right: 6px;
+    }
 
 }
