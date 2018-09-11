@@ -63,15 +63,18 @@
     .subcontents-ul li {
         width: 45%;
     }
-    .subcontents-ul img {
-        width: 75%;
+    .subcontents-box {
         position: relative;
     }
+    .subcontents-ul img {
+        width: 75%;
+    }
     .subcontents-name {
+        color: #ccc;
         display: inline-block;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 35%;
+        left: 15%;
     }
 
 /* footer */
