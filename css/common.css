@@ -1,6 +1,10 @@
 /*index.html*/
     body {
         overflow-x: hidden;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
     }
     li {
         list-style: none;
@@ -120,11 +124,11 @@
     .text-area {
         width: 100%;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 16px;
     }
     .yuyu-subcontents {
-        margin-top: 20px;
-        margin-bottom: 32px;
+        margin: 20px 0 32px 0;
+        padding: 0 16px;
     }
     .yuyu-subcontents .text-area {
         padding: 0;
@@ -135,14 +139,24 @@
         font-size: 14px;
     }
     .subcontents-ul {
+        flex-wrap: wrap;
         padding: 0;
         width: 100%;
-        flex-wrap: wrap;
+        margin-left: 4px;
+
     }
     /* ↓左右の余白は要再調整 */
     .subcontents-ul li {
-        width: 48%;
-        margin-right: 6px;
+        width: 50%;
+    }
+    .subcontents-ul img {
+        width: 96%;
+    }
+    .subcontents-name {
+        left: 16%;
+        font-size: 12px;
+        border: 1px solid #eee;
+        padding: 6px 16px;
     }
 
 }
