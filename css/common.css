@@ -1,4 +1,11 @@
 /*index.html*/
+    body {
+        overflow-x: hidden;
+        margin: 0;
+    }
+    ul {
+        padding: 0;
+    }
     li {
         list-style: none;
     }
@@ -33,11 +40,14 @@
 /* nav */
     .yuyu-nav {
         background-color: #eee;
+        margin-bottom: 32px;
     }
     .yuyu-nav-ul {
         display: flex;
         justify-content: space-around;
         padding: 16px 0;
+        width: 1200px;
+        margin: 0 auto;
     }
     .yuyu-nav-li a {
         color: #aaa;
@@ -55,6 +65,12 @@
     }
 
 /* subContents */
+    .yuyu-subcontents {
+        margin: 56px 0;
+    }
+    .yuyu-subcontents h2 {
+        font-size: 16px;
+    }
     .subcontents-ul {
         display: flex;
         padding-left: 94px;
@@ -70,7 +86,7 @@
         width: 75%;
     }
     .subcontents-name {
-        color: #ccc;
+        color: #fff;
         display: inline-block;
         position: absolute;
         top: 35%;
@@ -80,7 +96,6 @@
 /* footer */
     .yuyu-footer {
         background-color: #444;
-        height: 240px;
         position: absolute;
         width: 100%;
     }
@@ -88,5 +103,60 @@
         font-size: 12px;
         color: #eee;
         text-align: center;
-        padding-top: 14%;
     }
+
+/*SP対応*/
+@media screen and (max-width: 768px) {
+
+    .yuyu-title {
+        font-size: 18px;
+    }
+    .yuyu-nav {
+        margin-bottom: 8px;
+    }
+    .yuyu-nav-ul {
+        width: 100%;
+    }
+        .yuyu-nav-li a {
+            font-size: 12px;
+        }
+
+    .text-area {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+    .yuyu-subcontents {
+        margin: 20px 0 32px 0;
+        padding: 0 16px;
+    }
+    .yuyu-subcontents .text-area {
+        padding: 0;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    .yuyu-subcontents h2 {
+        font-size: 14px;
+    }
+    .subcontents-ul {
+        flex-wrap: wrap;
+        padding: 0;
+        width: 100%;
+        margin-left: 4px;
+
+    }
+    /* ↓左右の余白は要再調整 */
+    .subcontents-ul li {
+        width: 50%;
+    }
+    .subcontents-ul img {
+        width: 96%;
+    }
+    .subcontents-name {
+        left: 16%;
+        font-size: 12px;
+        border: 1px solid #eee;
+        padding: 6px 16px;
+    }
+
+}
